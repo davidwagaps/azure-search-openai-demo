@@ -69,6 +69,7 @@ if [ -n "$USE_FEATURE_INT_VECTORIZATION" ]; then
 fi
 
 ./scripts/.venv/bin/python ./scripts/prepdocs.py './data/*' --verbose \
+--removeall \
 --subscriptionid $AZURE_SUBSCRIPTION_ID  \
 --storageaccount "$AZURE_STORAGE_ACCOUNT" --container "$AZURE_STORAGE_CONTAINER" --storageresourcegroup $AZURE_STORAGE_RESOURCE_GROUP \
 --searchservice "$AZURE_SEARCH_SERVICE" --index "$AZURE_SEARCH_INDEX" \
