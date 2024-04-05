@@ -44,7 +44,7 @@ const Layout = () => {
                            */} 
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
+                    <h4 className={styles.headerRightText}>David Waghalter | Product Manager</h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
