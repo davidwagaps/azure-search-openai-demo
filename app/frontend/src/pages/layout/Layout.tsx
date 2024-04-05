@@ -28,7 +28,7 @@ const Layout = () => {
                                     Ask a question
                                 </NavLink>
                             </li>
-                           <!--
+                           {/* 
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
                                     <img
@@ -41,7 +41,7 @@ const Layout = () => {
                                     />
                                 </a>
                             </li>
-                            -->
+                           */} 
                         </ul>
                     </nav>
                     <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
