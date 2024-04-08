@@ -45,7 +45,7 @@ const Layout = () => {
                            */} 
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>David Waghalter | Product Manager | <a href="mailto:dwaghalter@gmail.com">Contact</a> | <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
+                    <h4 className={styles.headerRightText}>David Waghalter | Product Manager | <a href="mailto:dwaghalter@gmail.com">Contact</a>  <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
                                     <img
                                         src={linkedin}
                                         alt="LinkedIn logo"
