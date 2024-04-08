@@ -43,7 +43,6 @@ const Layout = () => {
                                 </a>
                             </li>
                            */} 
-                            
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
                                     <img
@@ -56,7 +55,9 @@ const Layout = () => {
                                     />
                                 </a>
                             </li>
-                            
+                            <li className={styles.headerNavLeftMargin}>
+                                <a href="mailto:dwaghalter@gmail.com" title="email">Contact</a> 
+                            </li>
                         </ul>
                     </nav>
                     <h4 className={styles.headerRightText}>David Waghalter | Product Manager</h4>
