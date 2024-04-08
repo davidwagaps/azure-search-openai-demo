@@ -59,6 +59,36 @@
     text-decoration: none;
 }
 
+/* unvisited link */
+a:link {
+    color: #f2f2f2;
+    text-decoration: none;
+    opacity: 0.75;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    transition-duration: 500ms;
+    transition-property: opacity;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #f2f2f2;
+    text-decoration: none;
+    opacity: 1;
+  }
+
 .headerNavLeftMargin {
     margin-left: 20px;
 }

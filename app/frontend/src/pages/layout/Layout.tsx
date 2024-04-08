@@ -43,8 +43,9 @@ const Layout = () => {
                                 </a>
                             </li>
                            */} 
-                            <li className={styles.headerNavLeftMargin}>
-                                <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
+                        </ul>
+                    </nav>
+                    <h4 className={styles.headerRightText}>David Waghalter | Product Manager <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
                                     <img
                                         src={linkedin}
                                         alt="LinkedIn logo"
@@ -53,16 +54,8 @@ const Layout = () => {
                                         height="24px"
                                         className={styles.linkedinLogo}
                                     />
-                                </a>
-                            </li>
-                            <li className={styles.headerNavLeftMargin}>
-                                <a href="mailto:dwaghalter@gmail.com">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <h4 className={styles.headerRightText}>David Waghalter | Product Manager</h4>
+                                </a> <a href="mailto:dwaghalter@gmail.com">Contact</a>
+                            </h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
