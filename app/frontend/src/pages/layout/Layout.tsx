@@ -50,8 +50,8 @@ const Layout = () => {
                                         src={linkedin}
                                         alt="LinkedIn logo"
                                         aria-label="Link to LinkedIn profile"
-                                        width="20px"
-                                        height="20px"
+                                        width="24px"
+                                        height="24px"
                                         className={styles.linkedinLogo}
                                     />
                                 </a>
