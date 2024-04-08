@@ -1,6 +1,7 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
 import github from "../../assets/github.svg";
+import linkedin from "../../assets/linkedin.svg";
 
 import styles from "./Layout.module.css";
 
@@ -42,6 +43,20 @@ const Layout = () => {
                                 </a>
                             </li>
                            */} 
+                            
+                            <li className={styles.headerNavLeftMargin}>
+                                <a href="https://www.linkedin.com/in/waghalter/" target={"_blank"} title="LinkedIn link">
+                                    <img
+                                        src={linkedin}
+                                        alt="LinkedIn logo"
+                                        aria-label="Link to LinkedIn profile"
+                                        width="20px"
+                                        height="20px"
+                                        className={styles.linkedinLogo}
+                                    />
+                                </a>
+                            </li>
+                            
                         </ul>
                     </nav>
                     <h4 className={styles.headerRightText}>David Waghalter | Product Manager</h4>
