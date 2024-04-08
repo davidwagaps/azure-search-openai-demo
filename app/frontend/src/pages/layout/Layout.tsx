@@ -57,7 +57,7 @@ const Layout = () => {
                             </li>
 
                             <li className={styles.headerNavLeftMargin}>
-                                <NavLink to={{pathname: "mailto:dwaghalter@gmail.com"}} className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
+                                <NavLink to={{pathname: "mailto:dwaghalter@gmail.com"}} target="_blank" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
                                     Contact
                                 </NavLink>
                             </li>
