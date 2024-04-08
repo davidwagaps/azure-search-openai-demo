@@ -57,9 +57,9 @@ const Layout = () => {
                             </li>
 
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="mailto:dwaghalter@gmail.com" target="_blank" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
+                                <NavLink as="a" target="_blank" href="mailto:dwaghalter@gmail.com" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
                                     Contact
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </nav>
